@@ -1,0 +1,27 @@
+body{
+    background-color: azure;
+}
+.exGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "exHead"
+        "hed"
+        "exCategories"
+        "exFoot";
+    place-items: center;
+}
+.exHead{grid-area: exHead; text-align: center; color: darkblue; font-weight: bold; text-transform: uppercase; font-size: 1.5em;}
+.exCategories{ grid-area: exCategories; text-align: center;}
+.exFoot{ grid-area: exFoot; text-align: center; color: darkblue; font-weight: bold; text-transform: uppercase; font-size: 1.5em;
+    margin-top: 3px;}
+.headin{font-weight: bold; color: firebrick;}
+#hed{ grid-area: hed; font-size: 1.25em; font-weight: bold; color: saddlebrown;}
+.btn
+{
+	background-color:darkblue; display:inline-block; padding:3px; color:white; border-radius:50px;
+	text-align:center;
+}
+.specialImg{ height:30%; width: 65%;}
+#tableBody{ text-align: left;}
+.intro{color: teal; font-weight: bold;}
